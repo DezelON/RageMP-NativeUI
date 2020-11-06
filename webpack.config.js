@@ -2,6 +2,7 @@ const path = require("path");
 
 module.exports = {
 	mode: "production",
+	entry: './index.ts',
 	module: {
 		rules: [
 			{
@@ -16,5 +17,8 @@ module.exports = {
 	},
 	output: {
 		filename: "index.js"
-	}
+	},
+    optimization: {
+        minimize: false
+    }
 };
