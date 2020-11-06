@@ -11,9 +11,9 @@ gulp.task("build", function() {
 		.src("index.ts")
 		.pipe(webpack(require("./webpack.config")))
 		.pipe(gulp.dest("dist"))
-		.pipe(
-			gulpCopy(path.resolve("../../server-files/client_packages/nativeui"), {
-				prefix: 1
-			})
-		);
+		// .pipe(
+		// 	gulpCopy(path.resolve("../../server-files/client_packages/nativeui"), {
+		// 		prefix: 1
+		// 	})
+		// );
 });

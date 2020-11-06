@@ -1,8 +1,11 @@
 {
-	"name": "NativeUI",
+	"name": "nativeui",
 	"version": "1.0.0",
 	"description": "RageMP NativeUI",
 	"main": "index.js",
+	"scripts": {
+		"build": "gulp build"
+	},
 	"repository": "https://github.com/XMGamingMaster/RageMP-NativeUI.git",
 	"author": "GamingMaster",
 	"license": "Apache-2.0",
@@ -10,7 +13,7 @@
 	"dependencies": {},
 	"devDependencies": {
 		"@types/node": "^10.12.12",
-		"@types/ragemp-c": "github:CocaColaBear/types-ragemp-c#master",
+		"@types/ragemp-c": "github:CocaColaBear/types-ragemp-c#v1.0",
 		"gulp": "^4.0.0",
 		"gulp-copy": "^4.0.1",
 		"ts-loader": "^5.3.1",
